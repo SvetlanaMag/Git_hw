@@ -1,0 +1,18 @@
+JavaScript Preferences
+The JavaScript Preferences section contains all of the JavaScript settings for PDF Studio Viewer.
+
+To open the JavaScript Preferences dialog:
+
+Go to File Tab > Preferences
+Select JavaScript from the panel on the left of the preferences dialog to view or modify these preferences.
+Settings
+Enable JavaScript - Enable the processing of JavaScript features in PDFs, and silence errors if desired. JavaScript can be set to Always on, Never on, or Prompt when you open a document with JavaScript in it.  Prompt is the default.
+
+Never: will never allow JavaScript to run within the PDF document.
+Prompt: will display a message prompting the user to allow JavaScript to run in the PDF document.
+Always: Will always run JavaScript within the PDF document. Warning: Make sure to only open documents from trusted sources.
+Formatting Errors - Whether to Show Warning Message or Sound a Beep when there is JavaScript in the PDF Document.
+
+Warn before submitting form - When checked will prompt before submitting a PDF form using JavaScript
+
+Warn before emailing document - When checked will prompt before emailing a document using JavaScript
