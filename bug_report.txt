@@ -1,0 +1,15 @@
+ID :	#1
+Environment :	"ОС Windows 10, x64
+Google Chrome 103.0.5060.134 (64 bit)"
+Severity :	Major
+Priority :	High
+Status :	
+Summary :	Пользователь может зарегистрироваться с невалидным паролем - все буквы в нижнем регистре
+Preconditions :	"Пользователь находится на странице
+https://anatoly-karpovich.github.io/demo-login-form/"
+Steps to reproduce :	"1. В поле Username ввести: user17
+2. В поле Password ввести: useruseru
+3. Кликнуть на кнопку ""Register"""
+Actual result :	Появляется сообщение об успешной регистрации "Successfully registered! Please, click Back to return on login page"
+Expected result :	Появляется сообщение о необходимости пароля содержащего хотя бы 1 букву в верхнем регистре
+Attachments	:
